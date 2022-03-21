@@ -33,7 +33,7 @@ export const filtroOrder  = (data, order) => {
   
   if (order === "Z-A") {
       return data.sort((a, b) => a.name > b.name ? -1 : 1)
-  } else if (order === "A-Z") {
+  } else  {
       return data.sort((a, b) => a.name > b.name ? 1 : -1)
   }
 }

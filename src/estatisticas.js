@@ -28,7 +28,6 @@ const graficoStatus = document.getElementById('graficoStatus')
 const graficoGenero = document.getElementById('graficoGenero')
 const graficoEspecie = document.getElementById('graficoEspecie')
 
-
 new Chart(graficoStatus, {
     type: 'pie',
     data: {

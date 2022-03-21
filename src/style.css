@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-h1 {
+.titulosite {
   color: #f2e394;
   font-family: "Play", sans-serif;
 }
@@ -140,13 +140,13 @@ main {
 }
 
 .btn_reset {
-  width: 4rem;
-  text-align: center;
+  width: 2.5rem;
+  text-align:center;
   padding: 0.1rem;
   border-radius: 0.3em;
   font-size: 0.975rem;
-  border: #f76a68 solid 1px;
-  background-color: #f76a68;
+  background-color:crimson;
+  border: crimson;
 }
 .btn_Lou, .btn_Mal{
   max-width: 100px;
@@ -195,7 +195,7 @@ main {
   height: 3em;
   text-align: center;
   font-size: 12px;
-  justify-content: space-around;
+  justify-content: center;
   display: flex;
   color: #ffffff;
 }
