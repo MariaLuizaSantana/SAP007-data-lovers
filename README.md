@@ -72,12 +72,13 @@ A lógica do projeto foi implementada somente em JavaScript (ES6), HTML e CSS.
 
 ## 6. Pessoas que desenvolveram o Projeto
 
-Esse projeto foi desenvolvido por
+Esse projeto foi desenvolvido por:
 
  Louiza Lima, Squad 5.
- <img src="src\img-readme\lou.png" width="350px">
-
-e
-
+ <br><br>
+ <img src="src\img-readme\lou.png" width="250px">
+<br>
+<br>
  Maria Luiza Costa, Squad 1.
- <img src="src\img-readme\malu.png" width="350px">
+ <br><br>
+ <img src="src\img-readme\malu.png" width="250px">
