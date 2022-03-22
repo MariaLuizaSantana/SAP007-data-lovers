@@ -31,25 +31,27 @@ A aplicação foi pensada para atender a necessidade dos fãs da série, sejam e
 
 Nós utilizamos as seguintes histórias de usuário para definirmos as diretrizes do nosso projeto:
 
-<img src="H.U 1.jpg">
-<img src="H.U 2.jpg">
-<img src="H.U 3.jpg">
+<img src="img-readme/H.U 1.jpg">
+<img src="img-readme/H.U 2.jpg">
+<img src="img-readme/H.U 3.jpg">
 
 Protótipo de baixa e alta fidelidade
 
 Após a definição das histórias de usuário, discutimos como iríamos estruturar nosso site: definimos a localização dos menus, a quantidade de páginas, e de que forma apresentaríamos as informações sobre os personagens.
 
-<img src="prototipo_baixa_fidelidade.jpg">
+<img src="img-readme/prototipo_baixa_fidelidade.jpg">
 
 Em seguida, desenhamos  uma Interface de Usuário (User Interface). Para isso, utilizamos o Figma e apresentamos o que seria o esperado para nosso projeto.
 
-<img src="prototipo_alta_fidelidade.jpg">
+<img src="img-readme/prototipo_alta_fidelidade.jpg">
 
 ## 4. Testes Unitários
 
 Escrevemos nosso teste para as funções de processamento, filtragem e ordenação dos dados, assim como a de cálculo de porcentagem de cada categoria de filtro. 
 
-Nossos testes unitários possuem cobertura de 100% de statements (sentenças), functions (funções), lines (linhas), e 70% de branches (ramos) do arquivo src/data.js, no qual contém nossas funções.
+Nossos testes unitários possuem cobertura de 100% de statements (sentenças), functions (funções), lines (linhas), e de branches (ramos) do arquivo src/data.js, no qual contém nossas funções.
+
+<img src="img-readme/teste_100.jpg">
 
 
 ## 5.  Considerações técnicas
@@ -80,3 +82,4 @@ package-lock.json
 package.json
 README.md
 thumb.png
+
