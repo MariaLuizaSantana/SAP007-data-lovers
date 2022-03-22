@@ -22,6 +22,8 @@ O Projeto data lovers foi criado para um bootcamp da Laboratória com o objetivo
 <br>
 <br>
 <strong>Versão Final Mobile</strong>
+<br>
+<br>
 <img alt="versão desktop" src="src\img-readme\responsivo_site.png">
 
 ## 2. Resumo do projeto
