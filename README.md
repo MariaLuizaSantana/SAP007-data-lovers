@@ -10,7 +10,10 @@
 - [7. Considerações técnicas](#7-)
 
 
-## 1. Título
+## 1. Título e Imagem
+
+O Projeto data lovers foi criado para um bootcamp da Laboratória com o objetivo de colocar em prática todo o conteúdo do objetivo de aprendizagem. O tema escolhido foi o de Rick & Morty.
+
 
 ## 2. Resumo do projeto
 
@@ -51,7 +54,7 @@ Escrevemos nosso teste para as funções de processamento, filtragem e ordenaç�
 
 Nossos testes unitários possuem cobertura de 100% de statements (sentenças), functions (funções), lines (linhas), e de branches (ramos) do arquivo src/data.js, no qual contém nossas funções.
 
-<img src="img-readme/teste_100.jpg">
+<img src="teste_100.jpg">
 
 
 ## 5.  Considerações técnicas
@@ -82,4 +85,19 @@ package-lock.json
 package.json
 README.md
 thumb.png
+
+## 6. Pessoas que desenvolveram o Projeto
+
+Esse projeto foi desenvolvido por
+
+ Louiza Lima, Squad 5.
+
+e
+
+ Maria Luiza Costa, Squad 1.
+
+
+
+
+
 
