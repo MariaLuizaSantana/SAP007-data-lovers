@@ -75,7 +75,9 @@ A lógica do projeto foi implementada somente em JavaScript (ES6), HTML e CSS.
 Esse projeto foi desenvolvido por
 
  Louiza Lima, Squad 5.
+ <img src="src\img-readme\lou.png" width="350px">
 
 e
 
  Maria Luiza Costa, Squad 1.
+ <img src="src\img-readme\malu.png" width="350px">
