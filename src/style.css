@@ -140,13 +140,13 @@ main {
 }
 
 .btn_reset {
-  width: 2.5rem;
-  text-align:center;
+  width: 4rem;
+  text-align: center;
   padding: 0.1rem;
   border-radius: 0.3em;
   font-size: 0.975rem;
-  background-color:crimson;
-  border: crimson;
+  border: #f76a68 solid 1px;
+  background-color: #f76a68;
 }
 .btn_Lou, .btn_Mal{
   max-width: 100px;
