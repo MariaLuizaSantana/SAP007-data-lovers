@@ -2,12 +2,12 @@
 
 ## Índice
 
-- [1. ](#1-)
+- [1. Título e Imagem](#1-título-e-imagem)
 - [2. Resumo do projeto](#2-resumo-do-projeto)
 - [3. Definições do Produto](#3-definições-do-produto)
 - [4. Testes Unitários](#4-testes-unitários)
-- [5. ](#5-)
-- [7. Considerações técnicas](#7-)
+- [5. Considerações técnicas](#5-considerações-técnicas)
+- [6. Pessoas que desenvolveram o Projeto](#6-pessoas-que-desenvolveram-o-projeto)
 
 
 ## 1. Título e Imagem
@@ -34,9 +34,9 @@ A aplicação foi pensada para atender a necessidade dos fãs da série, sejam e
 
 Nós utilizamos as seguintes histórias de usuário para definirmos as diretrizes do nosso projeto:
 
-<img src="img-readme/H.U 1.jpg">
-<img src="img-readme/H.U 2.jpg">
-<img src="img-readme/H.U 3.jpg">
+<img alt="história de usuário nº 3" src="H.U 1.jpg">
+<img alt="história de usuário nº 3" src="H.U 2.jpg">
+<img alt="história de usuário nº 3" src="H.U 3.jpg">
 
 Protótipo de baixa e alta fidelidade
 
