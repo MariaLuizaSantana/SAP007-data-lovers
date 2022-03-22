@@ -15,10 +15,14 @@
 O Projeto data lovers foi criado para um bootcamp da Laboratória com o objetivo de colocar em prática todo o conteúdo do objetivo de aprendizagem. O tema escolhido foi o de Rick & Morty.
 
 <strong>Versão Final Desktop</strong>
-<img alt="versão desktop" src="src\img-readme\versao_desktop.png" width="350px">
+<br>
+<br>
+<img alt="versão desktop" src="src\img-readme\versao_desktop.png">
+<br>
+<br>
 <br>
 <strong>Versão Final Mobile</strong>
-<img alt="versão desktop" src="src\img-readme\responsivo_site.png" width="350px">
+<img alt="versão desktop" src="src\img-readme\responsivo_site.png">
 
 ## 2. Resumo do projeto
 
@@ -47,11 +51,11 @@ Protótipo de baixa e alta fidelidade
 
 Após a definição das histórias de usuário, discutimos como iríamos estruturar nosso site: definimos a localização dos menus, a quantidade de páginas, e de que forma apresentaríamos as informações sobre os personagens.
 
-<img src="src\img-readme\prototipo_baixa_fidelidade.png" width="350px">
+<img src="src\img-readme\prototipo_baixa_fidelidade.png" width="450px">
 
 Em seguida, desenhamos  uma Interface de Usuário (User Interface). Para isso, utilizamos o Figma e apresentamos o que seria o esperado para nosso projeto.
 
-<img src="src\img-readme\prototipo_alta_fidelidade.png" width="350px">
+<img src="src\img-readme\prototipo_alta_fidelidade.png" width="450px">
 
 ## 4. Testes Unitários
 
@@ -59,7 +63,7 @@ Escrevemos nosso teste para as funções de processamento, filtragem e ordenaç�
 
 Nossos testes unitários possuem cobertura de 100% de statements (sentenças), functions (funções), lines (linhas), e de branches (ramos) do arquivo src/data.js, no qual contém nossas funções.
 
-<img src="src\img-readme\teste_100.png" width="350px">
+<img src="src\img-readme\teste_100.png" width="450px">
 
 
 ## 5.  Considerações técnicas
