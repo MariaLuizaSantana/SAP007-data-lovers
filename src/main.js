@@ -3,7 +3,6 @@ import {
 } from "./data.js";
 import data from "./data/rickandmorty/rickandmorty.js";
 
-///Imprimir Cards na tela///
 
 function imprimirCardsTela(data) {
 document.getElementById("infoCards").innerHTML = data.map(
@@ -15,9 +14,9 @@ document.getElementById("infoCards").innerHTML = data.map(
         
         <div class = "telaText">
             <ul class = "telaTextCard">
-                <li class="nome_personagem"><strong> </strong>${item.name}</li>
+                <li class="nome_personagem">${item.name}</li>
                 <li class="li_categorias"><strong class="categoria_filtro">Espécie: </strong>${item.species}</li>
-                <li class="li_categorias"><strong class="categoria_filtro">Status: </strong>${item.status}</li>
+                <li class="li_categorias"><strong class="categoria_filtro">Estado: </strong>${item.status}</li>
                 <li class="li_categorias"><strong class="categoria_filtro">Gênero: </strong>${item.gender}</li>
                 <li class="li_categorias"><strong class="categoria_filtro">Local de Origem: </strong>${item.origin.name}</li>
             </ul>
@@ -29,7 +28,6 @@ document.getElementById("infoCards").innerHTML = data.map(
 }
 imprimirCardsTela(data.results);
 
-///Todos os querySelector juntos
 
 const selecaoGenero = document.querySelector("#gender-filter");
 const selecaoStatus = document.querySelector("#status-filter");
@@ -40,12 +38,9 @@ const porcentagem = document.getElementById("porcentagemFiltro");
 const searchName = document.getElementById("text-search");
 const btnLimpar = document.getElementById("btn_reset");
 
-///função para imprimir os filtros com a % 
-
-
 function imprimirPorcentagem(data) {
-    porcentagem.innerHTML = `Aqui possui ${data}`
-    porcentagem.style.display = 'inline-block'
+porcentagem.innerHTML = `Aqui possui ${data}`
+porcentagem.style.display = 'inline-block'
 }
 
 function imprimirFiltroGenero(e) {
@@ -75,7 +70,6 @@ selecaoSpecies.selectedIndex=0;
 return imprimirCardsTela(resultadoStatus);
 }
 
-
 function imprimirFiltroName(e) {
 const resultadoName = filtroName(data.results, e.target.value);
 const porcentagemName = `${calculoPorcentagem(data.results.length, resultadoName.length)}% dos personagens`
@@ -88,13 +82,10 @@ const resultadoOrder = filtroOrder(data.results, e.target.value);
 return imprimirCardsTela(resultadoOrder);
 }
 
-
 function limparFiltros(){
 window.location.reload();
 }
 
-
-/// Por uma escuta pra quando mudar pro filtro 'x', imprimir os cards filtrados
 selecaoGenero.addEventListener("change", imprimirFiltroGenero);
 selecaoStatus.addEventListener("change", imprimirFiltroStatus);
 selecaoSpecies.addEventListener("change", imprimirFiltroSpecies);

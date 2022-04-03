@@ -33,7 +33,7 @@
     <form class="menufiltros">
       <label>Espécie</label>
       <select class="filtro" id="species-filter">
-        <option disabled selected>-</option>
+        <option disabled selected>Selecione:</option>
         <option value="alien">Alien</option>
         <option value="animal">Animal</option>
         <option value="cronenberg">Cronenberg</option>
@@ -50,15 +50,15 @@
 
       <label>Gênero</label>
       <select class="filtro" id="gender-filter">
-        <option disabled selected>-</option>
+        <option disabled selected>Selecione:</option>
         <option value="male">Masculino</option>
         <option value="female">Feminino</option>
         <option value="unknown">Desconhecido</option>
       </select>
 
-      <label>Status</label>
+      <label>Estado</label>
       <select class="filtro" id="status-filter">
-        <option disabled selected>-</option>
+        <option disabled selected>Selecione:</option>
         <option value="alive">Vivo</option>
         <option value="dead">Morto</option>
         <option value="unknown">Desconhecido</option>
@@ -69,29 +69,29 @@
       <input type="reset" value="🗑" class="btn_reset" id="btn_reset">
     </form>
 
-    <div class="ordenacaoA-Z">
-      <p>Organize</p>
-      <select class="filtro" id="order-filter">
-        <option disabled selected>-</option>
-        <option value="A-Z">A-Z</option>
-        <option value="Z-A">Z-A</option>
-      </select>
+      <div class="ordenacaoA-Z">
+        <p>Organize</p>
+        <select class="filtro" id="order-filter">
+          <option disabled selected>-</option>
+          <option value="A-Z">A-Z</option>
+          <option value="Z-A">Z-A</option>
+        </select>
+      </div>
+    </form>
+    <div class="calculo" >
+      <p id="porcentagemFiltro"></p>
     </div>
-    <p class="calculo" id="porcentagemFiltro"></p>
   </div>
   
-  <main>
-    <section>
-      <div class="localCards" id="infoCards"></div>
-    </section>
+  <main class="localCards" id="infoCards">
   </main>
 
-  <div class="back-to-top-wrapper">
-    <a href="#top" class="back-to-top-link" aria-label="Scroll to Top"> 🔝 </a>
+  <div class="volta-topo-caixa">
+    <a href="#top" class="volta-topo-link"> 🔝 </a>
   </div>
 
   <footer class="rodape">
-    <a href="https://github.com/MariaLuizaSantana"><img src="git.png" alt="logoGit" class="btn_Malu" > </a>
+    <a href="https://github.com/MariaLuizaSantana"><img src="git.png" alt="logoGit" class="btn_Malu" ></a>
     <p class="copyright"> © Maria Luiza e Louiza Lima</p>
     <a href="https://github.com/loulima"><img src="git.png" alt="logoGit" class="btn_Lou"></a>
   </footer>

@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-h1 {
+.titulosite {
   color: #f2e394;
   font-family: "Play", sans-serif;
 }
@@ -163,7 +163,7 @@ main {
   float: right;
 }
 
-.back-to-top-link {
+.volta-topo-link {
   display: inline-block;
   position: fixed;
   pointer-events: all;
@@ -178,7 +178,7 @@ main {
   padding: 0.25rem;
 }
 
-.back-to-top-wrapper {
+.volta-topo-caixa {
   position: absolute;
   right: 0.25rem;
   bottom: -5em;
@@ -240,10 +240,15 @@ main {
 option, .label{
   font-size: 15px;
 }
-
+<<<<<<< mobilecss
   .back-to-top-wrapper {
     right: 1.20rem;
+=======
+.volta-topo-caixa {
+    right: 1.25rem;
+>>>>>>> main
   }
+
 
 .rodape{
   bottom: 0;
