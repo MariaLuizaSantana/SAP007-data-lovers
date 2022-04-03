@@ -14,9 +14,9 @@ document.getElementById("infoCards").innerHTML = data.map(
         
         <div class = "telaText">
             <ul class = "telaTextCard">
-                <li class="nome_personagem"><strong> </strong>${item.name}</li>
+                <li class="nome_personagem">${item.name}</li>
                 <li class="li_categorias"><strong class="categoria_filtro">Espécie: </strong>${item.species}</li>
-                <li class="li_categorias"><strong class="categoria_filtro">Status: </strong>${item.status}</li>
+                <li class="li_categorias"><strong class="categoria_filtro">Estado: </strong>${item.status}</li>
                 <li class="li_categorias"><strong class="categoria_filtro">Gênero: </strong>${item.gender}</li>
                 <li class="li_categorias"><strong class="categoria_filtro">Local de Origem: </strong>${item.origin.name}</li>
             </ul>

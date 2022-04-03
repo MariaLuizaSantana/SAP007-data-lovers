@@ -60,7 +60,7 @@ h1 {
 }
 .rodape {
     background-color: #733250;
-    position:relative;
+    position:fixed;
     padding: 1em 1em 1em 1em;
     bottom: 0;
     width: 100%;
