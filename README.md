@@ -11,15 +11,12 @@
 
 # Guia de Personagens de Rick and Morty
 
-O Projeto Data Lovers foi criado para um bootcamp da Laboratória com o objetivo de colocar em prática todo o conteúdo do objetivo de aprendizagem. O tema escolhido foi o de Rick & Morty.
-
 ### Versão Final Desktop
 <img alt="versão desktop" src="src\img-readme\versao_desktop.png">
 
 ### Versão Final Mobile
 
 <img alt="versão desktop" src="src\img-readme\responsivo_site.png">
-
 
 ## Resumo do Projeto
 
@@ -30,6 +27,7 @@ O objetivo deste projeto é construir uma aplicação web que permita através d
 Rick and Morty é uma série de animação adulta norte-americana de comédia e ficção científica criada por Justin Roiland e Dan Harmon para o bloco de programação noturno Adult Swim, exibido no canal Cartoon Network.
 
 A série estreou em 2 de dezembro de 2013 e acompanha as perigosas aventuras do cientista alcoólatra Rick e seu neto Morty, que divide seu tempo entre a vida familiar e viagens interdimensionais.
+
 
 ## Definições do Produto
 A aplicação foi pensada para atender a necessidade dos fãs da série, sejam eles fãs veteranos que desejam acessar informações adicionais sobre personagens ou novatos que querem conhecer mais sobre o universo de Rick and Morty. Para isso, foi pensado em filtros que auxiliem na busca por personagens: é possível localizar por nome,espécie,gênero, estado e ordenar os resultados em ordem alfabética.
